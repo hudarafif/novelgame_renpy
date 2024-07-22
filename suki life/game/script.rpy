@@ -37,34 +37,6 @@ define h = Character('rapip', color="#2d16de")
 # Game dimulai disini.
 label start:
 
-    # scene bg_awal with dissolve
-    # n "pagi yang terburu-buru"
-
-    # scene kamar with dissolve
-    # n "susana pagi hari yang cerah dikamar suki, dan terdengar suara alarm yang berbunyi begitu kencanggg"
-
-    # play music alarm loop
-    # s "eeeh...., jam berapa ini"
-    # stop music
-    # show suki_sleepy with dissolve
-
-    # show suki_shock with dissolve
-    # s "(shock) oh tidak, aku sudah terlambattt"
-    # show suki_normal with dissolve
-    # s "hmm..aku harus bergegas mandi dan pergi ke sekolah"
-
-    # scene small_bathroom with dissolve
-    # n "suki pun mandi"
-    # show suki_mandi with dissolve
-    # s "sehabis mandi rasanya segar sekali, ingin sekali berendam tapi sudah tidak ada waktu lagi"
-    # show suki_TN with dissolve
-    # s "aku sebaiknya harus segera ganti costum deh"
-
-    # scene black with dissolve
-    # show street with fade
-    # show huda_N with dissolve
-    # h "owhh hai, hajimemaste namae wa Rapip desu"
-
     scene black with dissolve
     show bg_awal with fade
     "Di pagi yang cerah, Suki berangkat ke sekolah di Tokyo dengan penuh semangat. Hari itu, sekolahnya mengadakan pameran Global Goals yang diadakan oleh PBB" 
@@ -99,5 +71,4 @@ label start:
     show depankelas with dissolve
     "Setelah pameran, Suki dan Rapip sepakat untuk memulai proyek lingkungan di sekolah mereka. Mereka mengumpulkan teman-teman sekelas dan membentuk sebuah kelompok yang mereka sebut “Green Guardians”."    
     
-    
-    return
+return
